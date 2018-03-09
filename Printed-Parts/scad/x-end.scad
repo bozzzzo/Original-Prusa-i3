@@ -90,9 +90,9 @@ module x_end_holes()
 // Nut traps for TR nut screws
     translate(v=[0,-17, 0]) rotate([0, 0, -135]) translate([0, 9.5, 11]) rotate([0, 0, 0])cylinder(h = 6, r = 3.1, $fn=6);
 
-    translate(v=[0,-17, 0]) rotate([0,0,-135]) translate([0,-9.5,10]) rotate([0,0,30])cylinder(h = 3, r = 3.1, $fn=6);
-    translate([-5.5,-17.2,10]) rotate([0,0,30]) cube([5,5,3]);
-    translate([-0,-17.2,10]) rotate([0,0,60]) cube([5,10,3]);
+    translate(v=[0,-17, 0]) rotate([0,0,-135]) translate([0,-9.5,10]) rotate([0,0,30])cylinder(h = 3.2, r = 3.2, $fn=6);
+    translate([-5.5,-17.2,10]) rotate([0,0,30]) cube([5,5,3.2]);
+    translate([-0,-17.2,10]) rotate([0,0,60]) cube([5,10,3.2]);
     
     translate([0,0,6.5])
     difference()
